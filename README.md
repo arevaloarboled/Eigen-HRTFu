@@ -43,5 +43,5 @@ Here is a description of the properties you can edit for this spatializer:
 |Listener | This property specifies the listener in the scene, by default is the `Audio Listener` in the scene.|
 
 # References
-  [1] T.  Qu,  Z.  Xiao,  M.  Gong,  Y.  Huang,  X.  Li,  and  X.  Wu,  “Distance-Dependent Head-Related Transfer Functions Measured With High Spa-tial  Resolution  Using  a  Spark  Gap,”IEEE Trans. on Audio, Speech &Language Processing, vol. 17, no. 6, pp. 1124–1132, 2009.
+  [1] T.  Qu,  Z.  Xiao,  M.  Gong,  Y.  Huang,  X.  Li,  and  X.  Wu,  “Distance-Dependent Head-Related Transfer Functions Measured With High Spa-tial  Resolution  Using  a  Spark  Gap,”IEEE Trans. on Audio, Speech &Language Processing, vol. 17, no. 6, pp. 1124–1132, 2009.\
   [2] Arevalo, Camilo & Villegas, Julian. (2020). Compressing Head-Related Transfer Function databases by Eigen decomposition. 1-6. 10.1109/MMSP48831.2020.9287134. 
