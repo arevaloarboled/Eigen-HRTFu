@@ -19,7 +19,7 @@ This API is tested in Unity 2020.1.6, to get it, just copy the HRTFu folder in t
 
 Currently, this spatializer only works for MacOS in 64 bits architecture. **Windows coming soon!**
 
->If you are using Plugins in your project, mind that Eigen-HRTFu has the own Plugins directory, so, you can move the files of this directory in your own Plugins directory.
+>If you are using Plugins in your project, mind that Eigen-HRTFu has its own Plugins directory, so, you can move the files of this directory in your own Plugins directory.
 
 To work with this spatializer, we recommend to set up this Audio setting in Unity (`Edit > Project Settings > Audio`):
 
