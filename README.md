@@ -11,7 +11,7 @@
   </a>
 </p>
 
-Eigen-HRTFu is an audio spatializer for a near field of the listener in Unity engine focused for VR, is capable of spatialization between distance 20 ⩽ d ⩽ 160 cm, azimuth 0° ⩽ θ ⩽ 360°, and elevation -40° ⩽ ϕ ⩽ 90° base on an Eigen decomposition of the database created by Qu et al. in [1]. Methods used to create this database is described here [2].
+Eigen-HRTFu is an audio spatializer for a near field of the listener in Unity engine focused for VR, is capable of spatialization between distance 20 ⩽ d ⩽ 160 cm, azimuth 0° ⩽ θ < 360°, and elevation -40° ⩽ ϕ ⩽ 90° base on an Eigen decomposition of the database created by Qu et al. in [1]. Methods used to create this database is described here [2].
 
 # Getting start
 
