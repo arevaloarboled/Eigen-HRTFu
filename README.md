@@ -42,6 +42,15 @@ Here is a description of the properties you can edit for this spatializer:
 |Listener | This property specifies the listener in the scene, by default is the `Audio Listener` in the scene.|
 | Gain | Gain in dB. Modification of the gain may change the subjective perception of distance. We strongly recommend do not modify this parameter. Use it at your own discretion. Default value `0 dB` |
 
+# External resources
+
+- The compressed database along with an offline spatializer implemented in Matlab is available in the following repository:
+https://github.com/arevaloarboled/HRTF-Eigen-decomposition
+- Spatializer in a form of VST plugin implemented in Matlab is also available in the following repository:
+https://www.mathworks.com/matlabcentral/fileexchange/92453-eigenhrtf
+
+
+
 # References
   [1] T.  Qu,  Z.  Xiao,  M.  Gong,  Y.  Huang,  X.  Li,  and  X.  Wu,  “Distance-Dependent Head-Related Transfer Functions Measured With High Spa-tial  Resolution  Using  a  Spark  Gap,”IEEE Trans. on Audio, Speech &Language Processing, vol. 17, no. 6, pp. 1124–1132, 2009.\
   [2] Arevalo, Camilo & Villegas, Julián. (2020). Compressing Head-Related Transfer Function databases by Eigen decomposition. 1-6. 10.1109/MMSP48831.2020.9287134. 
