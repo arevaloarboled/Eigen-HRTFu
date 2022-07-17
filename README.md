@@ -17,14 +17,13 @@ Eigen-HRTFu is an audio spatializer for a near field of the listener in Unity en
 
 This API is tested in Unity 2020.1.6, to get it, just copy the HRTFu folder in the `Assets` folder.
 
-Currently, this spatializer only works for MacOS in 64 bits architecture. **Windows coming soon!**
+Currently, this spatializer works for MacOS in 64 bits Intel architecture and Windows.
 
 >If you are using Plugins in your project, mind that Eigen-HRTFu has its own Plugins directory. You will need to move the Plugin of HRTFu in your own Plugins directory, or move your Plugins in the HRTFu Plugin directory.
 
 To work with this spatializer, we recommend to set up this Audio setting in Unity (`Edit > Project Settings > Audio`):
 
 * Default speaker mode as **Stereo**
-* DSP Buffer Size as **Best latency** (i.e., 256 buffer size)
 
 # Usage
 
@@ -41,6 +40,7 @@ Here is a description of the properties you can edit for this spatializer:
 |Scale | Is a scale of the distance from the listener object to the audio source, according to the units used to define the geometry of objects. By default is `.01`|
 |Pinna | This spatializer have 2 pinnae simulators included, you can select `Large` or `Small` pinnae simulator. By default is `Small`.|
 |Listener | This property specifies the listener in the scene, by default is the `Audio Listener` in the scene.|
+| Gain | Gain in dB. Modification of the gain may change the subjective perception of distance. We strongly recommend do not modify this parameter. Use it at your own discretion. Default value `0 dB` |
 
 # References
   [1] T.  Qu,  Z.  Xiao,  M.  Gong,  Y.  Huang,  X.  Li,  and  X.  Wu,  “Distance-Dependent Head-Related Transfer Functions Measured With High Spa-tial  Resolution  Using  a  Spark  Gap,”IEEE Trans. on Audio, Speech &Language Processing, vol. 17, no. 6, pp. 1124–1132, 2009.\
