@@ -45,8 +45,11 @@ Here is a description of the properties you can edit for this spatializer:
 # External resources
 
 - The compressed database along with an offline spatializer implemented in Matlab is available in the following repository:
+
 https://github.com/arevaloarboled/HRTF-Eigen-decomposition
+
 - Spatializer in a form of VST plugin implemented in Matlab is also available in the following repository:
+
 https://www.mathworks.com/matlabcentral/fileexchange/92453-eigenhrtf
 
 
