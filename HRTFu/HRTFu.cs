@@ -2,7 +2,6 @@
 using UnityEngine;
 using Eigen_HRTF_plugin;
 using UnityEngine.Profiling;
-using FaustUtilities_BPF;
 
 public class HRTFu : MonoBehaviour
 {
